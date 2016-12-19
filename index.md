@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: "Home"
+date:   2016-12-19
+---
 
-You can use the [editor on GitHub](https://github.com/jonathonbaron/jonathonbaron.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Lorem ipsum dolor sit amet, duo in possim scriptorem. Eros dicta mea ut, invidunt verterem duo et, eos dicant eirmod at. Nam justo clita nemore id, vel ei amet commune. Possim copiosae qualisque ut sit, liber nihil inciderint usu te, vim et dicat omnesque torquatos. An his nulla dicant. Eam an altera aperiri assentior, et eos praesent iracundia.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Ea timeam malorum percipitur sit, sea ad tale soluta civibus. Duo ea ignota debitis adipisci, omnium mnesarchum mea ex. Denique ancillae ne has. Quo ne habeo philosophia, ut nec causae audire eleifend. Magna atomorum intellegam te mel, sed brute quaerendum no, falli dignissim eu ius. An eruditi intellegam appellantur quo, sit errem nominati ut, ex nec discere fabellas adipiscing.
 
-### Markdown
+Autem iusto iracundia qui ut. Ex quot nonumes vel. At sea harum aperiam. Qui et eius solet, ea labores habemus consetetur ius.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Ea quo dico esse novum, vim partiendo elaboraret in. Suavitate sadipscing ut mel. Ad per liber lobortis, no sed sumo molestie ocurreret. Eum at malis singulis tacimates, ei solet aeterno saperet mea. Cum an dolor ponderum, dicit audiam mei ad.
 
-```markdown
-Syntax highlighted code block
+Ea sit lorem feugait. Harum apeirian consectetuer ei sea, et autem admodum sea, eos porro appellantur ei. Electram tractatos pro ea. Tota aliquam convenire ne duo.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jonathonbaron/jonathonbaron.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
