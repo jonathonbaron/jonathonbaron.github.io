@@ -4,6 +4,9 @@ title: "Contact"
 date: 2016-12-19
 ---
 
+**Email Address:**  
+jonathon.baron@yale.edu  
+
 **Mailing Address:**  
 Political Science Department  
 Yale University  
@@ -15,6 +18,3 @@ Political Science Department
 Yale University  
 115 Prospect St.  
 New Haven, CT 06511
-
-**Email:**  
-jonathon.baron@yale.edu  
