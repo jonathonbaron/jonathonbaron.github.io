@@ -4,7 +4,7 @@ title: "Home"
 date:   2016-12-19
 ---
 
-<img style="float: left; height: 235px; margin: 0 20px 10px 0" src="/assets/baron_photo.jpg" alt="pic" />
+<img style="float: left; height: 240px; margin: 0 20px 10px 0" src="/assets/baron_photo.jpg" alt="pic" />
 
 I am a fourth-year PhD candidate in the Department of Political Science at Yale University. My dissertation research concerns public attitudes toward nuclear technologies. My general research interests relate to political behavior, and especially to the microfoundations of state behavior in international relations.
 
