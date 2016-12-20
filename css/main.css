@@ -21,7 +21,7 @@ a:hover {
     text-decoration: underline;
 }
 h1 {
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'minion-pro', serif;
 }
 p {
@@ -41,5 +41,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-    font-size: 3em;
 }
