@@ -6,12 +6,12 @@ date: 2016-12-20
 1. *Pre-planning: all survey experiments to be carried out in Qualtrics using MTurk must first proceed through the following pre-planning stages.*
     1. Presentation/discussion -- a draft of the survey instrument(s) must be presented to a senior colleague or professor with experience running surveys in Qualtrics using MTurk
             1. When conducting research as part of a research lab, drafts should be presented before the lab, with PI(s) present
-
-``` r
-install.packages("commarobust")
-```
-                
-    2. IRB exemption/approval -- following presentation or workshopping, the amended instrument(s) must receive IRB exemption/approval
+            
+                                                            ``` r
+                                                            print("hello world")
+                                                            ```
+                                                            
+ 2. IRB exemption/approval -- following presentation or workshopping, the amended instrument(s) must receive IRB exemption/approval
             1. For research conducted with coauthors affiliated with separate institutions, researchers must receive IRB exemption/approval from each institution
     3. Preanalysis plan -- the exempt/approved project must be detailed in a preanalysis plan to be hosted online prior to the collection of any data
 2. *Qualtrics design: the survey, hosted via a Secure Qualtrics platform, must satisfy the following design requirements and checks before it can be launched.*
