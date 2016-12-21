@@ -86,7 +86,7 @@ date: 2016-12-20
         3. Examine potential issues and data structure by downloading data via Data & Analysis (using legacy format)
 3. *MTurk HIT specification: once the Qualtrics survey is in concordance with the checklist items enumerated in Section 2., an MTurk HIT must be created and designed appropriately.*
 ```r
-require(test)
+print("Hello, world!")
 ```
     1. Create a new HIT
         1. Navigate to the "Create" tab at the navigation bar at the top of the MTurk Requester page
