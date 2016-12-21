@@ -25,8 +25,8 @@ date: 2016-12-20
             1. Randomization
                 * Do *not* select "Evenly Present Elements"
                 * *Do* ensure that the Randomizer is set to present the correct number of elements to respondents
-                * Ensure that other design features (e.g., branching) remain constant across arms, where appropriate
             ![Randomizer Example](/assets/qualtrics_mturk_checklist/randomizer.jpg)
+                * Ensure that other design features (e.g., branching) remain constant across arms, where appropriate
             2. Branching
                 * Ensure that branching is specified correctly (e.g., where conditional on embedded data, randomization)
                 * In the case of random assignment into a given treatment via branching, ensure that arms do not appear sequentially
