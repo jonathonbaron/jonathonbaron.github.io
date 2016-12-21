@@ -110,13 +110,63 @@ date: 2016-12-20
             3. For follow-up Surveys
                 * Remove "HIT Approval Rate" and "Number of HITs Approved" qualifications
                 * Include additional qualification type based on Worker ID collected in the preceding wave(s)
-                    * Qualifications can be assigned using `MTurkR`, which may also be used to recontact workers
+                    * Qualifications can be assigned using `MTurkR`, which may also be used to recontact workers; first install and load the `MTurkR` package
                     ```r
-                    print("Hello, world!")
-                    ```
+                    install.packages("devtools")
+                    library(devtools)
+                    install_github(repo="MTurkR", username = "leeper")
                     
-                    * When recontacting workers, save the recontact output email text with other data files
-
+                    library(MturkR)
+                    ```
+                    Then, specify the vector of unique IDs to be used for recontacting respondents to the preceding wave(s)
+                    ```r
+                    outcome <- rnorm(100)
+                    respondent_id <- paste(sample(c(0:9, LETTERS), 6), collapse = "")
+                    
+                    prior_wave_data <-
+                        data.frame(outcome = outcome,
+                                   respondent_id = respondent_id)
+                                   
+                    recontact_ids <- prior_wave_data$respondent_id
+                    ```
+                    Next, provide your credentials (i.e., your Access Key and Secret Access Key from MTurk
+                    ```r
+                    access.key <- "EXAMPLEACCESSKEY"
+                    secret.access.key <- "EXAMPLESECRETACCESSKEY"
+                    credentials(c(access.key, secret.access.key))
+                    ```
+                    Generate a Qualification Type for the subjects to be recontacted, and assign the qualification type to the relevant workers
+                    ```r
+                    recontact_qual <-  
+                        CreateQualificationType(
+                            name = "follow-up_recontacts", status = "Active",
+                            description = "Workers from Prior Wave to be Recontacted",
+                            keywords = "")
+                            
+                    recontact_assign_out <-
+                        AssignQualification(qual = recontact_qual$QualificationTypeId, 
+                                            workers = recontact_ids)
+                    ```
+                    After specifying that workers must have been given this qualification type in MTurk, `MTurkR` can also be used to notify the relevant respondents about the follow-up survey via email
+                    ```r
+                    email.subject <- paste("Example Email Subject here")
+                    email.message <- 
+                        paste("Hello,", 
+                              paste("Example message reminding respondents to the", 
+                                    "prior wave(s) about the preceding HIT(s)",
+                                    "and requesting that they participate in the",
+                                    "following survey, as well.", sep = " "),
+                              paste("With directions regarding how to find the",
+                                    "new HIT with a unique keyword.", sep = " "),
+                              sep = "\n\n")
+                    
+                    recontact_email_out <- ContactWorker(subject = email.subject,
+                                                         msgs = email.message,
+                                                         workers = recontact_ids, batch = TRUE)
+                                               
+                    table(recontact_email_out$Valid)
+                    ```
+                    * When recontacting workers, save the recontact output (`recontact_assign_out` and `recontact_email_out`in the above example) and email text (`email.subject` and `email.message` in the above example) with other data files
         6. Specify Design Layout
             1. Paste and format study description into the "Design Layout" (the appended default format is recommended)
             2. Ensure that the Anonymous survey link URL directs subjects to the correct, live survey via the Anonymous Link noted in Sections 2.ii.c. - 2.iii.
