@@ -3,23 +3,29 @@ title: Checklist for the use of MTurk and Qualtrics Survey Methods
 author: Jonathon Baron & Molly Offer-Westort
 date: 2016-12-20
 ---
-1. *Pre-planning: all survey experiments to be carried out on MTurk using Qualtrics must first proceed through several pre-planning stages.*
-    1. Presentation/discussion -- a draft of the survey instrument(s) must be presented before a senior colleague or professor
-    2. IRB exemption/approval -- following presentation workshopping, the amended instrument(s) must receive IRB exemption/approval
-    3. Preanalysis plan -- the exempt/approved project must then be detailed in a preanalysis plan to be hosted online prior to the collection of any data
-2. *Qualtrics design: the survey, hosted on Yale's Secure Qualtrics platform, must satisfy several design requirements and pass associated checks before it can be launched.*
-    1. Independent confirmation -- prior to "alpha testing" with research assistants or lab members, confirm that the survey satisfies the following requirements, or has the following features
-        1. Proper proofing and language requirements
+1. *Pre-planning: all survey experiments to be carried out in Qualtrics using MTurk must first proceed through the following pre-planning stages.*
+    1. Presentation/discussion -- a draft of the survey instrument(s) must be presented to a senior colleague or professor with experience running surveys in Qualtrics using MTurk
+            1. When conducting research as part of a research lab, drafts should be presented before the lab, with PI(s) present
+    2. IRB exemption/approval -- following presentation or workshopping, the amended instrument(s) must receive IRB exemption/approval
+            1. For research conducted with coauthors affiliated with separate institutions, researchers must receive IRB exemption/approval from each institution
+    3. Preanalysis plan -- the exempt/approved project must be detailed in a preanalysis plan to be hosted online prior to the collection of any data
+2. *Qualtrics design: the survey, hosted via a Secure Qualtrics platform, must satisfy the following design requirements and checks before it can be launched.*
+    1. Independent confirmation -- prior to "alpha testing" (conducted with research assistants), the primary researcher(s) must confirm that the survey satisfies the following requirements, and that the following features are properly designed
+        1. Basic proofreading and language requirements
             1. Complete thorough spelling and grammar checks
             2. Ensure that questions are worded appropriately, succinctly, and understandably
             3. Ensure that questions aim at the proper inferential target
             4. Ensure that question answer choices measure outcomes appropriately and succinctly
             5. Ensure that questions are formatted efficiently and readably, and reformat where appropriate (e.g., by condensing separate questions into a Matrix Table format)
-            6. For all cases in which the researcher is uncertain about the correct solution to issues with items b - e in Section 2.i.a., randomization should be employed
+            6. For all cases in which a clear solution to problems presented by items b - e in Section 2.i.a. is unavailable, the primary researcher(s) may proceed according to the following approaches
+                * Consult the established literature in the field for proper terminology or questions of interest
+                * Consult colleagues and professors
+                * Exploit randomization to assess the relevance of multiple options
         2. Proper Survey Flow
             1. Randomization
+                ![Randomizer Example](/assets/qualtrics_mturk_checklist/randomizer.jpg)
                 * Do *not* select "Evenly Present Elements"
-                * *Do* ensure that the correct number of elements is set to be presented by the randomizer
+                * *Do* ensure that the Randomizer is set to present the correct number of elements to respondents
                 * Ensure that other design features (e.g., branching) remain constant across arms, where appropriate
             2. Branching
                 * Ensure that branching is specified correctly (e.g., where conditional on embedded data, randomization)
