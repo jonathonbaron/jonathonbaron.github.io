@@ -7,9 +7,9 @@ date: 2016-12-20
     1. Presentation/discussion -- a draft of the survey instrument(s) must be presented to a senior colleague or professor with experience running surveys in Qualtrics using MTurk
             1. When conducting research as part of a research lab, drafts should be presented before the lab, with PI(s) present
 
-                ```python
-                print("commarobust")
-                ```
+``` r
+install.packages("commarobust")
+```
                 
     2. IRB exemption/approval -- following presentation or workshopping, the amended instrument(s) must receive IRB exemption/approval
             1. For research conducted with coauthors affiliated with separate institutions, researchers must receive IRB exemption/approval from each institution
