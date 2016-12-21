@@ -9,14 +9,14 @@ date: 2016-12-20
     3. Preanalysis plan -- the exempt/approved project must then be detailed in a preanalysis plan to be hosted online prior to the collection of any data
 2. *Qualtrics design: the survey, hosted on Yale's Secure Qualtrics platform, must satisfy several design requirements and pass associated checks before it can be launched.*
     1. Independent confirmation -- prior to "alpha testing" with research assistants or lab members, confirm that the survey satisfies the following requirements, or has the following features
-        i. Proper proofing and language requirements
+        1. Proper proofing and language requirements
             1. Complete thorough spelling and grammar checks
             2. Ensure that questions are worded appropriately, succinctly, and understandably
             3. Ensure that questions aim at the proper inferential target
             4. Ensure that question answer choices measure outcomes appropriately and succinctly
             5. Ensure that questions are formatted efficiently and readably, and reformat where appropriate (e.g., by condensing separate questions into a Matrix Table format)
             6. For all cases in which the researcher is uncertain about the correct solution to issues with items B - E in Section 21.i, randomization should be employed
-        ii. Proper Survey Flow
+        2. Proper Survey Flow
             1. Randomization
                 * Do *not* select "Evenly Present Elements"
                 * *Do* ensure that the correct number of elements is set to be presented by the randomizer
@@ -31,7 +31,7 @@ date: 2016-12-20
                 * Where appropriate, confirm that embedded data selection is properly randomized
             4. End of Survey logic
                 * Ensure that End of Survey logic is applied appropriately to end the survey when subjects do not meet recruitment requirements (e.g., consent, age, et3.)
-        iii. Miscellaneous survey features and settings
+        3. Miscellaneous survey features and settings
             1. A consent form *must* be included as the first question
             2. An end-of-survey message containing randomized confirmation code *must* be specified in the survey
                 * Ensure that the confirmation code is only generated for subjects who meet recruitment requirements (the default end-of-survey message may be used otherwise)
@@ -48,40 +48,40 @@ date: 2016-12-20
             6. Validation
                 * Ensure that each question features appropriate validation using Validation Options (e.g., Request Response, or Custom Validation for various input formats)
     2. Alpha testing -- prior to "beta testing" with research assistants or lab members, the survey must be "alpha tested" in its entirety both using the Preview Survey functionality, and with recorded responses (using the Anonymous Link for web distribution)
-        i. Independent testing (Preview Survey)
+        1. Independent testing (Preview Survey)
             1. Complete thorough independent testing procedures through the Qualtrics Preview Survey functionality; ensure that randomization, embedded data, and branching function correctly
-        ii. Research-assistant testing (Preview Survey)
+        2. Research-assistant testing (Preview Survey)
             1. Share survey with research assistants for a full, thorough review of instrument text and Survey Flow (including all survey elements)
             2. Ensure that research assistants complete a full, thorough review of the survey via the Preview Survey functionality
             3. The survey should contain stable, functioning elements as detailed in Section 21.
-        iii. Independent testing (recorded responses)
+        3. Independent testing (recorded responses)
             1. After ensuring that the survey functions as intended via instrument, Survey Flow, and Preview Survey review, generate an Anonymous Link for recorded responses
             2. Ensure that survey functionality is maintained with recorded responses
                 * Attempt to "break" the survey functionality, especially with conditional embedded data, validation, and input text
                 * Examine potential issues and data structure by downloading data via Data & Analysis (using legacy format)
-        iv. Research-assistant testing (recorded responses)
+        4. Research-assistant testing (recorded responses)
             1. Share the Anonymous Link for recorded responses with research assistants for a full and thorough test of all survey features and functionalities
                 * Instruct research assistants to attempt to "break" the survey functionality, especially with conditional embedded data, validation, and input text
                 * Examine potential issues and data structure by downloading data via Data & Analysis (using legacy format)
     3. Beta testing -- when conducting research as part of a research lab, surveys must be "beta tested" with lab members using the Anonymous Link for web distribution (following independent and research-assistant "alpha testing")
-        i. Instruct lab members to attempt to "break" the survey functionality, especially with conditional embedded data, validation, and input text
-        ii. Where employing randomization, request that lab members record which treatment(s) they receive, to confirm proper randomization
-        iii. Examine potential issues and data structure by downloading data via Data & Analysis (using legacy format)
+        1. Instruct lab members to attempt to "break" the survey functionality, especially with conditional embedded data, validation, and input text
+        2. Where employing randomization, request that lab members record which treatment(s) they receive, to confirm proper randomization
+        3. Examine potential issues and data structure by downloading data via Data & Analysis (using legacy format)
 3. *MTurk HIT specification: once the Qualtrics survey is in concordance with the checklist items enumerated in Section 2, an MTurk HIT must be created and designed appropriately.*
     1. Create a new HIT
-        i. Navigate to the "Create" tab at the navigation bar at the top of the MTurk Requester page
-        ii. If not employing an MTurk default format, select "Other" from the format list on the left; then select "Create Project"
-        iii. Specify requirements for "Describe your HIT to Workers"
+        1. Navigate to the "Create" tab at the navigation bar at the top of the MTurk Requester page
+        2. If not employing an MTurk default format, select "Other" from the format list on the left; then select "Create Project"
+        3. Specify requirements for "Describe your HIT to Workers"
             1. Specify a "HIT Title"
             2. Specify a short "HIT description"
             3. Specify appropriate "Keywords" pertaining to the HIT
-        iv. Specify requirements for "Setting up your HIT"
+        4. Specify requirements for "Setting up your HIT"
             1. Specify "Reward per assignment" (i.e., the payment rate, per subject)
             2. Specify "Number of assignments per HIT" (for a survey or survey experiment, this will correspond to the number of subjects to be recruited for the pilot or study---see Section 41. for further details; $.50/5 minutes is recommended)
             1. Specify "Time allotted per assignment" (1 Hours is recommended as a default)
             2. Specify time for "HIT expires in" (5 Days is recommended as a default)
             3. Specify time for "Auto-approve and pay Workers in" (8 Hours is recommended as a default)
-        v. Specify "Worker requirements"
+        5. Specify "Worker requirements"
             1. *Do not* "Require that Workers be Masters to do your HITs
                 * Masters are not required for quality tasks, but cost appreciably more than standard MTurk workers
             2. "Specify any additional qualifications Workers must meet to work on your HITs" (up to five may be set)
@@ -96,18 +96,18 @@ date: 2016-12-20
                     * Qualifications can be assigned using `MTurkR`, which may also be used to recontact workers
                     * When recontacting workers, save the recontact output email text with other data files
 
-        vi. Specify Design Layout
+        6. Specify Design Layout
             1. Paste and format study description into the "Design Layout" (the appended default format is recommended)
             2. Ensure that the Anonymous survey link URL directs subjects to the correct, live survey via the Anonymous Link noted in Sections 2.2.iii - 2.3.
             1. Ensure that respondents can specify the end-of-survey random confirmation code provided to subjects who complete the Qualtrics survey
 4. *Launching the HIT: once the checklist items enumerated in Section 2, as well as the design specifications enumerated in Section 3 are fulfilled, the MTurk HIT can be created to recruit and pay subjects.*
     1. Piloting -- the HIT *must* first be launched as a pilot study, including no fewer than 20 subjects recruited from MTurk, to ensure proper functionality in both MTurk and Qualtrics prior to distribution using a full sample
-        i. Navigate back to the "Create" tab at the navigation bar at the top of the MTurk Requester page
-        ii. Select "Publish Batch" to the left of the relevant "Project"
-        iii. On the "Preview" page, confirm the following
+        1. Navigate back to the "Create" tab at the navigation bar at the top of the MTurk Requester page
+        2. Select "Publish Batch" to the left of the relevant "Project"
+        3. On the "Preview" page, confirm the following
             1. Confirm the accuracy of the Reward, HITs available, Duration, and Qualifications listed at the top of the page
             2. Confirm the format of the ``HIT Preview,'' and the accuracy of the Anonymous Link and survey code text box
-        iv. On the "Confirm and Publish" page, confirm the following
+        4. On the "Confirm and Publish" page, confirm the following
             1. Confirm the accuracy of the Batch Properties
             2. Confirm the accuracy of the HITs specifics
             3. Confirm the accuracy of the Cost Summary
@@ -116,11 +116,11 @@ date: 2016-12-20
                 * Where appropriate, if using funds from an external source (e.g., from a faculty research account), confirm the status of the HIT and Qualtrics survey prior to the transfer of relevant funds
                     * Funds should match the quoted Balance Due exactly
             5. Once all aspects of the HIT are confirmed, select "Purchase & Publish"; the HIT's progress may now be monitored by navigating to the "Manage" tab at the navigation bar at the top of the MTurk Requester page
-        v. Confirm the validity of the pilot study using Qualtrics and MTurk data (the latter of which can be accessed via Manage &rarr; Results) and potential MTurker feedback, and correct any remaining errors
+        5. Confirm the validity of the pilot study using Qualtrics and MTurk data (the latter of which can be accessed via Manage &rarr; Results) and potential MTurker feedback, and correct any remaining errors
     2. Full distribution -- once the pilot study has been completed and accuracy of all design elements and data are confirmed, the study may be distributed to the entire subject pool
-        i. Given a flawless pilot study, launch the HIT following the relevant instructions in Section 41., on $n - k$ subjects, where $n$ refers to the total number of subjects targeted for the study, and $k$ refers to the number of subjects included in the pilot
+        1. Given a flawless pilot study, launch the HIT following the relevant instructions in Section 41., on $n - k$ subjects, where $n$ refers to the total number of subjects targeted for the study, and $k$ refers to the number of subjects included in the pilot
             1. Subjects from the pilot stage must be excluded using a new qualification type (which can be assigned in `MTurkR`)
-        ii. Given the unlikely possibility of a problematic pilot study, the researcher must correct all apparent errors; depending on the severity, the researcher may choose to proceed according to one of the following approaches
+        2. Given the unlikely possibility of a problematic pilot study, the researcher must correct all apparent errors; depending on the severity, the researcher may choose to proceed according to one of the following approaches
             1. Re-pilot the study, using a separate pilot group
             2. Proceed according to Section 42.i
             3. Proceed by relaunching the HIT with $n$ subjects
