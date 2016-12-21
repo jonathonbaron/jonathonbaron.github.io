@@ -202,3 +202,20 @@ The checklist also contains a number of example images and `R` code designed to 
             2. Proceed according to Section 4.ii.a
             3. Proceed by relaunching the HIT with *n* subjects
                 * The relaunched HIT should exclude the *k* subjects from the flawed pilot study
+
+<!--
+Additions planned for upcoming versions:
+
+* Include `MTurkR` code to:
+    - automatically pay respondents
+    - publish the HIT in tranches (automatically)
+    - recontact on an individual basis (i.e., assigning one HIT per subject)
+* Best practices for working with MTurkers
+    - treating MTurkers well (Panopticon)
+    - HITs worth Turking for
+    - working as a Turker before publishing a HIT
+* Best practices for when things go wrong
+    - close down the survey?
+    - stop running ads?
+    - in any/all case(s), be sure to still pay people
+-->
