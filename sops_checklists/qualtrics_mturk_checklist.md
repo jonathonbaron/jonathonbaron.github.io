@@ -118,10 +118,10 @@ date: 2016-12-20
             5. Once all aspects of the HIT are confirmed, select "Purchase & Publish"; the HIT's progress may now be monitored by navigating to the "Manage" tab at the navigation bar at the top of the MTurk Requester page
         5. Confirm the validity of the pilot study using Qualtrics and MTurk data (the latter of which can be accessed via Manage &rarr; Results) and potential MTurker feedback, and correct any remaining errors
     2. Full distribution -- once the pilot study has been completed and accuracy of all design elements and data are confirmed, the study may be distributed to the entire subject pool
-        1. Given a flawless pilot study, launch the HIT following the relevant instructions in Section 41., on $n - k$ subjects, where $n$ refers to the total number of subjects targeted for the study, and $k$ refers to the number of subjects included in the pilot
+        1. Given a flawless pilot study, launch the HIT following the relevant instructions in Section 41., on $$n - k$$ subjects, where $$n$$ refers to the total number of subjects targeted for the study, and $$k$$ refers to the number of subjects included in the pilot
             1. Subjects from the pilot stage must be excluded using a new qualification type (which can be assigned in `MTurkR`)
         2. Given the unlikely possibility of a problematic pilot study, the researcher must correct all apparent errors; depending on the severity, the researcher may choose to proceed according to one of the following approaches
             1. Re-pilot the study, using a separate pilot group
             2. Proceed according to Section 42.i
-            3. Proceed by relaunching the HIT with $n$ subjects
-                * The relaunched HIT should exclude the $k$ subjects from the flawed pilot study
+            3. Proceed by relaunching the HIT with $$n$$ subjects
+                * The relaunched HIT should exclude the $$k$$ subjects from the flawed pilot study
