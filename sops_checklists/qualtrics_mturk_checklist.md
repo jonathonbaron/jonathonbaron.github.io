@@ -152,17 +152,17 @@ date: 2016-12-20
                     email.subject <- paste("Example Email Subject here")
                     email.message <- 
                         paste("Hello,", 
-                              paste("Example message reminding respondents to the", 
-                                    "prior wave(s) about the preceding HIT(s)",
-                                    "and requesting that they participate in the",
-                                    "following survey, as well.", sep = " "),
-                              paste("With directions regarding how to find the",
-                                    "new HIT with a unique keyword.", sep = " "),
-                              sep = "\n\n")
+                            paste("Example message reminding respondents to the prior wave(s)",
+                                  "about the preceding HIT(s), requesting that they participate in", 
+                                  "the following survey, as well.", sep = " "),
+                            paste("Include directions regarding how to find the new HIT using a", 
+                                  "unique keyword.", sep = " "),
+                            sep = "\n\n")
                     
                     recontact_email_out <- ContactWorker(subject = email.subject,
                                                          msgs = email.message,
-                                                         workers = recontact_ids, batch = TRUE)
+                                                         workers = recontact_ids,
+                                                         batch = TRUE)
                                                
                     table(recontact_email_out$Valid)
                     ```
