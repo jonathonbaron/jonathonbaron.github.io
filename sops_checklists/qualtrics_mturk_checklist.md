@@ -25,24 +25,28 @@ date: 2016-12-20
             1. Randomization
                 * Do *not* select "Evenly Present Elements"
                 * *Do* ensure that the Randomizer is set to present the correct number of elements to respondents
-            ![Randomizer Example](/assets/qualtrics_mturk_checklist/randomizer.jpg)
-                * Ensure that other design features (e.g., branching) remain constant across arms, where appropriate
+                  ![Randomizer Example](/assets/qualtrics_mturk_checklist/randomizer.jpg)
+                * Ensure that other design features (e.g., branching) remain constant across randomized arms, where appropriate
             2. Branching
-                * Ensure that branching is specified correctly (e.g., where conditional on embedded data, randomization)
-                * In the case of random assignment into a given treatment via branching, ensure that arms do not appear sequentially
+                * Ensure that branching is specified correctly (e.g., conditioned on the correct question/answer choice pair(s), embedded data, and randomization)
+                     * In the case of random assignment into a given treatment arm via branching, ensure that respondent views the only relevant arm(s); ensure that branching does not prevent all arms sequentially
             3. Embedded data
-                * Set embedded data at the beginning of the survey flow (i.e., prior to specifying other elements, *except* for Web Service elements for generating end-of-survey confirmation codes)
-                * Confirm that terms are defined properly within the Survey Flow
-                * When using piped text, confirm that terms are "called" correctly within survey question text
-                * Where appropriate, confirm that embedded data selection is properly randomized
+                * Set embedded data at the beginning of the survey flow (i.e., prior to all other Survey Flow elements, *except* for the Web Service element that generates end-of-survey confirmation codes)
+                * Confirm that terms are defined properly within the Survey Flow (e.g., that piped text is formatted adequately and grammatically correct)
+                * When using piped text, confirm that terms are "called" correctly within the relevant survey question text
+                * Where appropriate, confirm that embedded data selection is properly randomized (see Section 2.i.b.a.)
             4. End of Survey logic
-                * Ensure that End of Survey logic is applied appropriately to end the survey when subjects do not meet recruitment requirements (e.g., consent, age, et3.)
+                * Ensure that End of Survey logic is altered appropriately to present an end-of-survey confirmation code to respondents who complete the survey as given
+                * Ensure that the End of Survey logic is altered appropriately to exclude an end-of-survey confirmation code for respondents do not meet recruitment requirements (e.g., consent, age, etc.)
         3. Miscellaneous survey features and settings
             1. A consent form *must* be included as the first question
-            2. An end-of-survey message containing randomized confirmation code *must* be specified in the survey
-                * Ensure that the confirmation code is only generated for subjects who meet recruitment requirements (the default end-of-survey message may be used otherwise)
-                * This message must be written in the Qualtrics Library, and specified in Survey Options
-                * For additional confirmation, see Sections 2.i.b.c. and 2.ii.a.
+            2. An end-of-survey message containing a randomized confirmation code *must* be specified in the survey (see Section 2.i.b.d.)
+                * An end-of-survey confirmation code can be generated using a Web Service element, as below
+                ![Web Service Example](/assets/qualtrics_mturk_checklist/web_service.jpg)
+                * Ensure that a generated confirmation code is only presented to respondents who meet recruitment requirements and complete the survey as given (the default end-of-survey message may be employed for respondents who do not meet the recruitment requirements)
+                * This message must be written and stored in the Qualtrics Library, and specified in Survey Options, as below
+                ![End of Survey Message Example](/assets/qualtrics_mturk_checklist/end_of_survey_message.jpg)
+                * Ensure that the Embedded Data term "called" in the Web Service element matches that defined in the message written and stored in the Qualtrics Library (see above image)
             3. Anonymization
                 * Survey responses must be anonymized in accordance with IRB exemption/approval
             4. "Covariate" questions
