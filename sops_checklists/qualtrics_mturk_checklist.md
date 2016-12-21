@@ -1,8 +1,14 @@
 ---
-title: Checklist for the use of MTurk and Qualtrics Survey Methods
+title: Checklist for the use of the Qualtrics Survey Platform with Recruitment via MTurk
 author: Jonathon Baron & Molly Offer-Westort
 date: 2016-12-20
 ---
+## Checklist for the use of the Qualtrics Survey Platform with Recruitment via MTurk
+
+The following checklist is recommended for all researchers conducting studies using the Qualtrics survey platform, with recruitment via Amazon.com's Mechanical Turk (MTurk). The checklist includes sections on recommendations for pre-planning, design SOPs/checks in both the Qualtrics and MTurk platforms, several stages of testing, and protocols for resolving issues after launching a flawed study.  
+
+The checklist also contains a number of example images and `R` code designed to instruct researchers in streamlining design and establishing optimal practices.
+
 1. *Pre-planning: all survey experiments to be carried out in Qualtrics using MTurk must first proceed through the following pre-planning stages.*
     1. Presentation/discussion -- a draft of the survey instrument(s) must be presented to a senior colleague or professor with experience running surveys in Qualtrics using MTurk
             1. When conducting research as part of a research lab, drafts should be presented before the lab, with PI(s) present
