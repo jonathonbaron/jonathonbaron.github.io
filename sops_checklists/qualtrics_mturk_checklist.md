@@ -208,7 +208,8 @@ The checklist also contains a number of example images and `R` code designed to 
 Below is the recommended default format for an MTurk HIT for survey research; note that the format is adapted from an MTurk template:
 
 ```html
-<!-- For help on using this template, see the blog post: http://mechanicalturk.typepad.com/blog/2014/04/editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3 -->
+<!-- For help on using this template, see the blog post: http://mechanicalturk.typepad.com/blog/2014/04/
+editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3 -->
 <!DOCTYPE html>
 
 <html>
@@ -221,7 +222,8 @@ Below is the recommended default format for an MTurk HIT for survey research; no
 
 <body>
 	<section class="container" id="SurveyLink" style=
-	"margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; color:#333333; font-size:0.9em;">
+	"margin-bottom:15px; padding: 10px 10px; font-family: Verdana, Geneva, sans-serif; 
+	color:#333333; font-size:0.9em;">
 		<div class="row col-xs-12 col-md-12">
 			<!-- Instructions -->
 
