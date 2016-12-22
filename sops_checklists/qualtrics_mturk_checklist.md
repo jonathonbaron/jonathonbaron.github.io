@@ -174,7 +174,7 @@ The checklist also contains a number of example images and `R` code designed to 
                     ```
                     * When recontacting workers, save the recontact output (`recontact_assign_out` and `recontact_email_out`in the above example) and email text (`email.subject` and `email.message` in the above example) with other data files
         6. Specify Design Layout
-            1. Paste and format study description into the "Design Layout" (the appended default format is recommended)
+            1. Paste and format study description into the "Design Layout" editor (the appended default format is recommended; click the "Source" button and paste the entirety of the below HTML code into the editor)
             2. Ensure that the Anonymous survey link URL directs subjects to the correct, live survey via the Anonymous Link noted in Sections 2.ii.c. - 2.iii.
             1. Ensure that respondents can specify the end-of-survey random confirmation code provided to subjects who complete the Qualtrics survey
 4. *Launching the HIT: once the checklist items enumerated in Section 2., as well as the design specifications enumerated in Section 3. are fulfilled, the MTurk HIT can be created to recruit and pay subjects.*
