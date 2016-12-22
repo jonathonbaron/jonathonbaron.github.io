@@ -205,6 +205,7 @@ The checklist also contains a number of example images and `R` code designed to 
 
 ## Appendix
 
+### MTurk HIT default format HTML code
 Below is the recommended default format for an MTurk HIT for survey research; note that the format is adapted from an MTurk template:
 
 ```html
