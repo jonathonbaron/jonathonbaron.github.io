@@ -41,7 +41,7 @@ The checklist also contains a number of example images and `R` code designed to 
                 * Confirm that terms are defined properly within the Survey Flow (e.g., that piped text is formatted adequately and grammatically correct)
                 * When using piped text, confirm that terms are "called" correctly within the relevant survey question text
                 * Where appropriate, confirm that embedded data selection is properly randomized (see Section 2.i.b.a.)
-            4. End of Survey logic
+            4. End-of-Survey logic
                 * Ensure that End of Survey logic is altered appropriately to present an end-of-survey confirmation code to respondents who complete the survey as given
                 * Ensure that the End of Survey logic is altered appropriately to exclude an end-of-survey confirmation code for respondents do not meet recruitment requirements (e.g., consent, age, etc.)
         3. Miscellaneous survey features and settings
@@ -67,6 +67,12 @@ The checklist also contains a number of example images and `R` code designed to 
             6. Validation
                 * Ensure that each question features appropriate validation using Validation Options (e.g., Request Response, or Custom Validation for various input formats)
                     * Validation options can be selected on the right pane containing question options, after selecting a given question in the Qualtrics platform
+	    7. Images
+	    	* Images (e.g., graphical treatments) to be used in conjunction with, or in lieu of, question text must first be added to the Qualtrics Graphics Library, accessible by clicking Library &rarr; Graphics Library
+		    * Images can be uploaded to the Graphics Library by clicking the Upload Graphic button
+		* Once uploaded to the Graphics Library, images can be embedded in questions by opening the Rich Content Editor, and clicking the Insert Graphic button, as shown below
+		![Insert Graphic Example](/assets/qualtrics_mturk_checklist/insert_graphic.jpg)
+		* Ensure that all included images (in particular, textual images) satisfy the requirements enumerated in Section 2.i.a.
     2. Alpha testing -- prior to "beta testing" with research assistants (or lab members, if conducting research as part of a research lab), the survey must be "alpha tested" in its entirety both using the Preview Survey functionality, and with recorded responses (using the Anonymous Link for web distribution)
         1. Independent testing (Preview Survey)
             1. Complete thorough independent testing procedures through the Qualtrics Preview Survey functionality; ensure that the survey contains stable, functioning elements as detailed in Section 2.i.
@@ -397,7 +403,6 @@ editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3
 
 <!--
 Additions planned for upcoming versions:
-* Including images in Qualtrics
 * Include `MTurkR` code to:
     - automatically pay respondents
     - publish the HIT in tranches (automatically)
