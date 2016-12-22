@@ -94,17 +94,21 @@ The checklist also contains a number of example images and `R` code designed to 
     1. Create a new HIT
         1. Navigate to the "Create" tab at the navigation bar at the top of the MTurk Requester page
         2. If not employing an MTurk default format, select "Other" from the format list on the left; then select "Create Project"
+	![Create HIT Example](/assets/qualtrics_mturk_checklist/create_hit.jpg)
         3. Specify requirements for "Describe your HIT to Workers"
+	![Describe HIT Example](/assets/qualtrics_mturk_checklist/describe_hit.jpg)
             1. Specify a "HIT Title"
             2. Specify a short "HIT description"
             3. Specify appropriate "Keywords" pertaining to the HIT
         4. Specify requirements for "Setting up your HIT"
+	![Setting Up Your HIT Example](/assets/qualtrics_mturk_checklist/setting_up_your_hit.jpg)
             1. Specify "Reward per assignment" (i.e., the payment rate, per subject)
             2. Specify "Number of assignments per HIT" (for a survey or survey experiment, this will correspond to the number of subjects to be recruited for the pilot or study---see Section 4.i. for further details; $.50/5 minutes is recommended)
             1. Specify "Time allotted per assignment" (1 Hours is recommended as a default)
             2. Specify time for "HIT expires in" (5 Days is recommended as a default)
             3. Specify time for "Auto-approve and pay Workers in" (8 Hours is recommended as a default)
         5. Specify "Worker requirements"
+	![Worker Requirements Example](/assets/qualtrics_mturk_checklist/worker_requirements.jpg)
             1. *Do not* "Require that Workers be Masters to do your HITs
                 * Masters are not required for quality tasks, but cost appreciably more than standard MTurk workers
             2. "Specify any additional qualifications Workers must meet to work on your HITs" (up to five may be set)
