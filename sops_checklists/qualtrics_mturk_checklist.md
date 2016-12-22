@@ -393,7 +393,7 @@ editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3
 
 <!--
 Additions planned for upcoming versions:
-
+* Including images in Qualtrics
 * Include `MTurkR` code to:
     - automatically pay respondents
     - publish the HIT in tranches (automatically)
