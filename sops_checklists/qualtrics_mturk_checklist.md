@@ -358,7 +358,7 @@ editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3
 					that a member of the research team is not available, or to discuss your rights as a research
 					participant, you may contact the &lt;relevant IRB information (including name, address, and
 					phone number) here&gt;,&nbsp;</span><span style=
-					"font-size: 11pt;">human.subjects@yale.edu</span><span style="font-size: 11pt;">. Additional
+					"font-size: 11pt;">relevant IRB email here</span><span style="font-size: 11pt;">. Additional
 					information is available at&nbsp;</span><span style="font-size: 11pt;">relevant IRB website
 					URL here</span><span style="font-size: 11pt;">.</span>
 					</p>
@@ -379,7 +379,7 @@ editing-the-survey-link-project-template-in-the-ui.html --><!-- Bootstrap v3.0.3
 
 
 					<tr>
-						<td><strong>Provide the survey code here:</strong>
+						<td><strong>Qualtrics end-of-survey completion code here:</strong>
 						</td>
 
 						<td style="vertical-align: middle;"><input class="form-control" id="surveycode" name=
