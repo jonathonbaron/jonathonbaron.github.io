@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Research"
+date: 2016-12-19
+---
+
 ## Articles
 Peter M. Aronow, Jonathon S. Baron, and Lauren E. Pinson. "A Note on Dropping Experimental Subjects who Fail a Manipulation Check." In press at *Political Analysis*. Available [here](/assets/aronow_baron_pinson_2016.pdf).
 
