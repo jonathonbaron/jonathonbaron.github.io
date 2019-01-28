@@ -2,6 +2,10 @@
 layout: default
 title: "Home"
 date:   2019-01-28
+output: 
+  html_document:
+    includes:
+       in_header: ./ga_script.html
 ---
 
 <!--- <img style="float: left; height: 245px; margin: 0 20px 10px 0" src="/assets/baron_photo.jpg" alt="pic" /> -->
