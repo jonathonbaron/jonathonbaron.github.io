@@ -10,5 +10,7 @@ permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
 
+google_analytics: UA-133370800-1
+
 # Build settings
 markdown: kramdown
