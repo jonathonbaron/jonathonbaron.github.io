@@ -10,4 +10,4 @@ output:
 
 <!--- <img style="float: left; height: 245px; margin: 0 20px 10px 0" src="/assets/baron_photo.jpg" alt="pic" /> -->
 
-I am a PhD candidate in the Department of Political Science at Yale University, researching the influence of public opinion on nuclear policy. My work focuses on how public attitudes toward nuclear weapons influence attitudes toward nuclear energy.
+I am a Research Scientist at Facebook Demography & Survey Science. I received my PhD from the Department of Political Science at Yale University. My doctoral research focused on public opinion and nuclear policy, with an emphasis on how public attitudes toward nuclear weapons influence attitudes toward nuclear energy.
