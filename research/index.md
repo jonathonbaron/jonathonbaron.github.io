@@ -15,4 +15,4 @@ Peter M. Aronow, Jonathon S. Baron, and Lauren E. Pinson. "A Note on Dropping Ex
 Stephen Herzog and Jonathon Baron. 2017. "Public support, political polarization, and the nuclear-test ban: evidence from a new US national survey." *The Nonproliferation Review*. 24(3 &ndash; 4). 357 &ndash; 371. Available at [*The Nonproliferation Review*](http://www.tandfonline.com/doi/full/10.1080/10736700.2018.1429884).
 
 **Working Papers**
-Jonathon Baron. "Mass Attitudes and the Relationship Between Nuclear Power and Nuclear Weapons." Working paper available [here](https://github.com/jonathonbaron/jonathonbaron.github.io/raw/master/research/baron_mass_attitudes_and_the_relationship_between_nuclear_power_and_nuclear_weapons.pdf).
+Jonathon Baron. "Mass Attitudes and the Relationship Between Nuclear Power and Nuclear Weapons." Working paper available [here](/research/baron_mass_attitudes_and_the_relationship_between_nuclear_power_and_nuclear_weapons.pdf).
