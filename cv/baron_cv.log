@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.10)  13 JUN 2020 22:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.3.10)  19 JUN 2020 13:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -403,10 +403,10 @@ Here is how much of TeX's memory you used:
 -dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf/fonts/type1/p
 ublic/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb>
 </usr/share/texmf/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on baron_cv.pdf (3 pages, 106526 bytes).
+Output written on baron_cv.pdf (3 pages, 106759 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 52 PDF objects out of 1000 (max. 8388607)
+ 42 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
