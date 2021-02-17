@@ -18,7 +18,10 @@ Stephen Herzog and Jonathon Baron. 2017. "Public support, political polarization
 
 **Working Papers**
 
-Jonathon Baron. "Mass Attitudes and the Relationship Between Nuclear Power and Nuclear Weapons." Working paper available [here](baron_mass_attitudes.pdf).
+Jonathon Baron. "Mass Attitudes and the Relationship Between Nuclear Power and Nuclear Weapons." Working paper available at [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3631558).
+
+Jonathon Baron. "Mass Attitudes and Discrimination Against Hypothetical Job Candidates in Japan: A resumé-based
+survey experiment." Working paper available at [SSRN](https://ssrn.com/abstract=3631838).
 
 **Other Publications**
 
