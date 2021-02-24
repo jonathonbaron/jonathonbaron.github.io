@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 FEB 2021 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 FEB 2021 19:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,7 +437,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
 Here is how much of TeX's memory you used:
  5528 strings out of 480608
  84497 string characters out of 5903631
- 351314 words of memory out of 5000000
+ 352314 words of memory out of 5000000
  21339 multiletter control sequences out of 15000+600000
  553158 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -448,10 +448,10 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on baron_cv.pdf (4 pages, 180715 bytes).
+Output written on baron_cv.pdf (4 pages, 180907 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
+ 64 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
  5 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
