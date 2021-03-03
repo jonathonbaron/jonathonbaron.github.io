@@ -9,8 +9,11 @@ permalink: /blog/:year/:month/:day/:title
 
 gems:
   - jekyll-sitemap
+  - jekyll-google-tag-manager
 
 google_analytics: UA-133370800-1
+google_tag_manager:
+  container_id: GTM-WQXLV8R
 
 # Build settings
 markdown: kramdown
