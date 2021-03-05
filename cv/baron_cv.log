@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 FEB 2021 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAR 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -405,16 +405,11 @@ Underfull \hbox (badness 10000) in alignment at lines 328--330
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 412--414
+Underfull \hbox (badness 10000) in alignment at lines 418--420
 [][]
  []
 
 [3]
-Underfull \hbox (badness 10000) in alignment at lines 427--429
-[][]
- []
-
-
 Underfull \hbox (badness 10000) in alignment at lines 433--435
 [][]
  []
@@ -424,15 +419,20 @@ Underfull \hbox (badness 10000) in alignment at lines 439--441
 [][]
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 464.
+
+Underfull \hbox (badness 10000) in alignment at lines 445--447
+[][]
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 464.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
  (./baron_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 464.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 464.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
 Package rerunfilecheck Info: File `baron_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 464.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
  ) 
 Here is how much of TeX's memory you used:
  5528 strings out of 480608
@@ -448,7 +448,7 @@ live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/20
 20/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/tex
 mf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on baron_cv.pdf (4 pages, 180907 bytes).
+Output written on baron_cv.pdf (4 pages, 180966 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
