@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAR 2021 22:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  4 MAR 2021 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,63 +395,53 @@ Underfull \hbox (badness 10000) in alignment at lines 286--288
 [][]
  []
 
-LaTeX Font Info:    Trying to load font information for TS1+qpl on input line 3
-02.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/tex-gyre/ts1qpl.fd
-File: ts1qpl.fd 2009/09/25 v1.2 font definition file for TS1/qpl
-) [2]
-Underfull \hbox (badness 10000) in alignment at lines 328--330
+[2]
+Underfull \hbox (badness 10000) in alignment at lines 376--378
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in alignment at lines 418--420
+Underfull \hbox (badness 10000) in alignment at lines 436--438
 [][]
  []
 
+
+Underfull \hbox (badness 10000) in alignment at lines 442--444
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in alignment at lines 448--450
+[][]
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
 [3]
-Underfull \hbox (badness 10000) in alignment at lines 433--435
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 439--441
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in alignment at lines 445--447
-[][]
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
-[4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
  (./baron_cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
 Package rerunfilecheck Info: File `baron_cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
  ) 
 Here is how much of TeX's memory you used:
- 5528 strings out of 480608
- 84497 string characters out of 5903631
- 352314 words of memory out of 5000000
- 21339 multiletter control sequences out of 15000+600000
- 553158 words of font info for 42 fonts, out of 8000000 for 9000
+ 5507 strings out of 480608
+ 84164 string characters out of 5903631
+ 351314 words of memory out of 5000000
+ 21323 multiletter control sequences out of 15000+600000
+ 552775 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,11n,45p,372b,334s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}{/usr/
-local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/local/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texl
-ive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/texlive/20
-20/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/2020/tex
-mf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on baron_cv.pdf (4 pages, 180969 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/l
+ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
+Output written on baron_cv.pdf (3 pages, 178191 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 5 named destinations out of 1000 (max. 500000)
+ 57 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
