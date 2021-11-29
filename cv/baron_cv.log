@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  11 SEP 2021 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 NOV 2021 20:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,14 +310,14 @@ Underfull \hbox (badness 10000) in alignment at lines 159--161
 [][]
  []
 
-[1
 
-{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in alignment at lines 165--167
 [][]
  []
 
+[1
 
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 172--173
 []\OT1/qpl/m/n/10.95 Stephen Her-zog, Beno[]^^Pt Pelop-i-das, Jonathon Baron, a
 nd Fabr[]^^Pcio Fi-alho. June 23, 2020.
@@ -438,10 +438,10 @@ ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/lo
 cal/texlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplb.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/tex-gyre/qplr.pfb></usr/local/texlive/
 2020/texmf-dist/fonts/type1/public/tex-gyre/qplri.pfb>
-Output written on baron_cv.pdf (3 pages, 178213 bytes).
+Output written on baron_cv.pdf (3 pages, 178080 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 47 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
