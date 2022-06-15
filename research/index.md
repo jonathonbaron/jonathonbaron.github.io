@@ -18,7 +18,8 @@ Stephen Herzog and Jonathon Baron. 2017. "Public support, political polarization
 
 **Working Papers**
 
-Jonathon Baron. "Psychological Interdependence in Attitudes Toward Nuclear Technologies." Working paper available upon request.
+Jonathon Baron. "Dynamic Constraint and the Politics of Nuclear Attitudes." Working paper available
+at <a href="https://osf.io/preprints/socarxiv/gmdtb/" target="_blank">SocArXiv</a>.
 
 Jonathon Baron. "Mass Attitudes and Discrimination Against Hypothetical Job Candidates in Japan: A resumé-based
 survey experiment." Working paper available at <a href="https://ssrn.com/abstract=3631838" target="_blank">SSRN</a>.
