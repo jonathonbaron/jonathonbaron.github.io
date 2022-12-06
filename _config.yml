@@ -1,8 +1,8 @@
 # Site settings
 title: Jonathon Baron
-email: jonathon.baron@yale.edu
+email: jonathon.baron@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Jonathon Baron, PhD Candidate, Yale University Political Science
+  Jonathon Baron, PhD | Quantitative Research Scientist at The Chan Zuckerberg Initiative
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jonathonbaron.github.io" # the base hostname & protocol for your site
 permalink: /blog/:year/:month/:day/:title
